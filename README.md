@@ -8,3 +8,4 @@ Week 1: Python Fundamentals
     Day 3: Dictionaries & Logic. Mastered key-value pairs and conditional logic. Built a "Smart Stock Tracker" to simulate automated decision-making.
     Day 4 (Milestone): Successfully built a Data Scrubber. Mastered "Early Exit" logic using continue, handled missing values (NoneType), and implemented a full ETL (Extract, Transform, Load) pipeline for sales data.
     Day 5: Functions & Reusability. Mastered packaging code into reusable blocks. Implemented a data-processing function with parameters and return values.
+Day 6: Built a robust Security Validator. Mastered character iteration and category flags. This completes the "Automation Tools" portion of Week 1.
