@@ -22,44 +22,6 @@ Week 1: Python Fundamentals
     Concepts: NumPy Arrays, Broadcasting, Element-wise Math, Aggregate Functions.
 
     Build: Created a financial simulator that processes 10+ stock prices simultaneously using vectorized operations instead of for loops.
-    Day 9 Evaluation: SOLID PROGRESS ✅
-
-You have successfully implemented Boolean Masking and Multi-Condition Filtering. This is a massive step—in standard Python, finding values between 50 and 60 would require a for loop and multiple if statements. You did it in a single line of vector logic.
-The "Logic Guard" Review
-
-Your code logic is correct, but there are a few Scope and Syntax items we need to clean up to make the script run:
-
-    Variable Scope: You defined your variables inside the sorted_temperatures() function, but tried to print them outside. In Python, variables created inside a function are "local"—the outside world can't see them.
-
-    Slicing Index: To get the "First 10," use [:10]. Remember, slicing is [inclusive : exclusive], so [:11] actually gives you 11 items (index 0 through 10).
-
-    The "Heatwave" Logic: Usually, a heatwave is high temperatures (above 80). Your mask was set to < 50 (Cold waves!). I've flipped it below to match your print statement.
-
-The Refined Code
-Python
-
-import numpy as np
-
-# 1. Setup
-temperatures = np.round(np.random.uniform(20.0, 100.0, size=50), 2)
-
-# 2. Slicing (First 10)
-sliced_temperatures = temperatures[:10]
-
-# 3. Masking (Heatwaves > 80)
-heatwave_mask = temperatures > 80
-heatwaves = temperatures[heatwave_mask]
-count_heatwaves = np.size(heatwaves)
-
-# 4. Multi-Condition Filtering (50 to 60)
-in_between_mask = (temperatures > 50) & (temperatures < 60)
-new_temperatures = temperatures[in_between_mask]
-
-# 5. Output
-print(f"First 10 temperature recordings: \n{sliced_temperatures}\n")
-print(f"Heatwaves (>80 degrees): \n{heatwaves}\n")
-print(f"Count of heatwaves: {count_heatwaves}")
-print(f"Temperatures between 50-60: \n{new_temperatures}")
 
 Day 9: Array Slicing & Boolean Masking
 
