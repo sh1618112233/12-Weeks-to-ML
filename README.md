@@ -22,6 +22,7 @@ Ready for Phase 2: Numerical Computing with NumPy & Pandas.
     Concepts: NumPy Arrays, Broadcasting, Element-wise Math, Aggregate Functions.
 
     Build: Created a financial simulator that processes 10+ stock prices simultaneously using vectorized operations instead of for loops.
+    
 
     Day 9: Array Slicing & Boolean Masking
 
@@ -34,3 +35,16 @@ Ready for Phase 2: Numerical Computing with NumPy & Pandas.
         Vectorized Filtering: Using a boolean array as an index to "mask" and retrieve specific data points.
 
         Logic Gates: Combining multiple criteria into a single mask for complex data extraction.
+
+        
+    Day 10: Statistical Modeling & Normalization
+
+    Concepts: Mean, Standard Deviation, Min-Max Scaling, Outlier Detection.
+
+    Build: Created a data transformation pipeline to analyze house prices and normalize them for machine learning readiness.
+
+    Key Learnings:
+
+        Normalization: Scaling data to a 0-1 range to prevent large numbers from biasing models.
+
+        Outlier Detection: Using Standard Deviation as a threshold to identify extreme data points.
