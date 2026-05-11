@@ -15,7 +15,7 @@ Week 1: Python Fundamentals
 
     Built a CLI-based Student Tracker for real-time data management.
 
-Ready for Phase 2: Numerical Computing with NumPy & Pandas.
+Phase 2: Numerical Computing with NumPy & Pandas.
 
     Day 8: Vectorized Stock Calculator
 
