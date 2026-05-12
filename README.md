@@ -48,3 +48,16 @@ Phase 2: Numerical Computing with NumPy & Pandas.
         Normalization: Scaling data to a 0-1 range to prevent large numbers from biasing models.
 
         Outlier Detection: Using Standard Deviation as a threshold to identify extreme data points.
+
+
+        Day 11: Introduction to Pandas DataFrames
+
+    Concepts: DataFrame construction, Vectorized Column Math, Sorting, and Descriptive Statistics.
+
+    Build: Portfolio Manager that calculates holdings and filters for high-value assets.
+
+    Key Learnings:
+
+        Automation: Using .describe() to replace manual math functions.
+
+        Relational Logic: How Pandas maintains the link between "Ticker" and "Total Value" during sorting and filtering.
