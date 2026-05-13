@@ -17,7 +17,7 @@ Week 1: Python Fundamentals
 
 Phase 2: Numerical Computing with NumPy & Pandas.
 
-    Day 8: Vectorized Stock Calculator
+Day 8: Vectorized Stock Calculator
 
     Concepts: NumPy Arrays, Broadcasting, Element-wise Math, Aggregate Functions.
 
@@ -37,7 +37,7 @@ Phase 2: Numerical Computing with NumPy & Pandas.
         Logic Gates: Combining multiple criteria into a single mask for complex data extraction.
 
         
-    Day 10: Statistical Modeling & Normalization
+ Day 10: Statistical Modeling & Normalization
 
     Concepts: Mean, Standard Deviation, Min-Max Scaling, Outlier Detection.
 
@@ -50,7 +50,7 @@ Phase 2: Numerical Computing with NumPy & Pandas.
         Outlier Detection: Using Standard Deviation as a threshold to identify extreme data points.
 
 
-        Day 11: Introduction to Pandas DataFrames
+Day 11: Introduction to Pandas DataFrames
 
     Concepts: DataFrame construction, Vectorized Column Math, Sorting, and Descriptive Statistics.
 
@@ -61,3 +61,16 @@ Phase 2: Numerical Computing with NumPy & Pandas.
         Automation: Using .describe() to replace manual math functions.
 
         Relational Logic: How Pandas maintains the link between "Ticker" and "Total Value" during sorting and filtering.
+
+
+Day 12: Advanced Data Cleaning & Imputation
+
+    Concepts: Remote CSV Loading, String Sanitization, Null Handling (NaN), and Type Casting.
+
+    Build: An automated pipeline to process and clean raw transaction logs from Google Sheets.
+
+    Key Learnings:
+
+        External Integration: Connecting Pandas directly to Google Workspace via export URLs.
+
+        Schema Enforcement: Using .str.replace() and pd.to_numeric() to fix formatting issues before analysis.
