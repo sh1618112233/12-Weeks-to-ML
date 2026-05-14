@@ -74,3 +74,14 @@ Day 12: Advanced Data Cleaning & Imputation
         External Integration: Connecting Pandas directly to Google Workspace via export URLs.
 
         Schema Enforcement: Using .str.replace() and pd.to_numeric() to fix formatting issues before analysis.
+
+
+Day 13: Feature Engineering via Grouping (MLOps Track)
+
+    Concepts: groupby(), transform(), Feature Engineering, Vectorized Math.
+
+    Build: An automated feature-engineering step that calculates aggregate statistics (Country Median Pay) and injects them back into the main dataset.
+
+    Key Learnings: * The Transform Function: Using .transform() instead of .agg() to preserve the original shape of the DataFrame, preparing it for Machine Learning ingestion.
+
+        Relative Features: Calculating Deviation_From_Norm to give an ML model context about a specific data point compared to its local group.
